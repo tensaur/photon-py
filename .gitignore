@@ -1,0 +1,10 @@
+/target
+*.so
+*.pyd
+.DS_Store
+.photon
+dist/
+.idea
+.vscode
+.venv
+__pycache__/

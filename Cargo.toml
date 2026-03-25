@@ -1,0 +1,13 @@
+[package]
+name = "photon-py"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[lib]
+name = "_photon"
+crate-type = ["cdylib"]
+
+[dependencies]
+photon = "0.1.0"
+pyo3 = { version = "0.28", features = ["extension-module"] }
